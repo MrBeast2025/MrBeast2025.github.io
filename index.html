@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>蓝松涛 · 应用统计学在读 · 数据分析方向</title>
+<meta name="description" content="蓝松涛，广东金融学院应用统计学在读。用 Python 把数据清洗、因子计算、回测验证到研究报告整条链路跑通，寻找数据分析 / 量化分析实习机会。">
+<link rel="stylesheet" href="./styles.css?v=2">
+<script>
+(function () {
+  try {
+    var s = localStorage.getItem("theme");
+    var light = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches;
+    document.documentElement.setAttribute("data-theme", s || (light ? "light" : "dark"));
+  } catch (e) {}
+})();
+</script>
+</head>
+<body>
+
+<div class="page">
+
+  <aside class="rail">
+    <div class="rail-inner">
+      <h1 class="rail-name" id="rail-name"></h1>
+      <p class="rail-latin" id="rail-latin"></p>
+      <div id="rail-lines"></div>
+      <div class="rail-block">
+        <div class="metrics" id="metrics"></div>
+        <p class="metrics-note" id="metrics-note"></p>
+      </div>
+      <nav class="rail-nav" id="rail-nav" aria-label="目录"></nav>
+      <div class="rail-foot" id="rail-foot"></div>
+    </div>
+  </aside>
+
+  <main class="main" id="main"></main>
+
+</div>
+
+<noscript>
+  <div class="noscript-note">
+    <p>本站需要浏览器开启 JavaScript 才能完整显示内容。</p>
+    <p>联系方式：3220674536@qq.com</p>
+  </div>
+</noscript>
+
+<script src="./content.js?v=2"></script>
+<script src="./main.js?v=2"></script>
+</body>
+</html>
